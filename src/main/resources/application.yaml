@@ -1,0 +1,22 @@
+server:
+  port: 8181
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/TransactionOutbox
+    username: postgres
+    password: gopal
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
+
+
+
+
+
+
+
+
